@@ -12,6 +12,7 @@ links = "tauri-plugin-rusty-ai-sdk"
 tauri = { version = "2.5.0" }
 serde = "1.0"
 thiserror = "2"
+async-openai = "0.28.3"
 
 [build-dependencies]
 tauri-plugin = { version = "2.2.0", features = ["build"] }
